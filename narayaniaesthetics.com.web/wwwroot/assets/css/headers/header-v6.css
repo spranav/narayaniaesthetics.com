@@ -100,17 +100,17 @@
 
 /*Navbar Brand*/
 .header-v6 .navbar-brand {
-	height: 93px;
-	max-height: 93px;
+	height: 136px;
+	/*max-height: 93px;*/
 	line-height: 65px;
 }
 
 .header-v6 .navbar-brand img {
-	width: auto;
-	height: auto;
+	width: 100%;
+	/*height: auto;
 	max-width: 100%;
-	max-height: 100%;
-	display: inline-block;
+	max-height: 100%;*/
+	display: inline;
 	vertical-align: middle;
 }
 
@@ -125,7 +125,7 @@
 /*Media Queries*/
 @media (max-width: 991px) {
 	.header-v6 .navbar-brand {
-		padding-top: 20px;
+		padding-top: 10px;
 	}
 
 	.header-v6 .navbar-brand img.shrink-logo {
