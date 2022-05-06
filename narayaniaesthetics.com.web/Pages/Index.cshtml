@@ -4,6 +4,91 @@
     ViewData["Title"] = "Home page";
 }
 
+<style>
+ .portfolio-box li{
+     margin-bottom:30px;
+ }
+</style>
+ <!--=== Slider ===-->
+        <div id="layerslider" style="width: 100%; height: 500px;">
+            <!-- First slide -->
+            <div class="ls-slide" style="slidedirection: right; transition2d: 92,93,105; ">
+                <img src="assets/img/sliders/slider3.jpg" class="ls-bg" alt="Slide background">
+
+                <span class="ls-s-1 " style="background: #f9e8e8;opacity:0.8;   padding:10px 20px; border-radius: 11px;box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px; color: black; line-height:45px; font-weight: 200; font-size: 35px; top:370px; left: 50px; slidedirection : top; slideoutdirection : bottom; durationin : 1000; durationout : 1000; ">
+                    World-class cosmetology services  <br> now in Gurgaon
+                </span>
+
+                @*<a class="btn-u btn-u-green ls-s-1" href="#" style=" padding: 9px 20px; font-size:25px; top:437px; left: 50px; slidedirection : bottom; slideoutdirection : bottom; durationin : 2000; durationout : 2000; ">
+                    Find Out More
+                    </a>*@
+
+                <img src="assets/img/mockup/iphone.png" alt="Slider Image" class="ls-s-1" style=" top:30px; left: 670px; slidedirection : right; slideoutdirection : bottom; durationin : 3000; durationout : 3000; ">
+            </div>
+            <!-- End First slide -->
+            <!-- Second Slide -->
+            <div class="ls-slide" data-ls="slidedelay:6500; transition2d:25;">
+                <img src="assets/img/sliders/slider2.jpg" class="ls-bg" alt="Slide background" />
+
+                @* <img class="ls-l" src="assets/img/mockup/iphone1.png" style="top: 85%; left: 44%;"
+                    data-ls="offsetxin:left; durationin:1500; delayin:900; fadein:false; offsetxout:left; durationout:1000; fadeout:false;" />*@
+
+                <span class="ls-s-1" style=" line-height: 45px; font-size:30px; color:#fff; top:300px; left: 590px; slidedirection : top; slideoutdirection : bottom; durationin : 1500; durationout : 3500; delayin : 1000;">
+                    One stop destination for all your <br> beauty treatment needs
+                </span>
+
+                <img src="assets/img/mockup/iphone.png" alt="Slider image" class="ls-s-1" style=" top:30px; left: 29%;" data-ls="offsetxin:left; durationin:3500; delayin:3500; fadein:false; offsetxout:left; durationout:4500; fadeout:false;">
+
+                <a class="btn-u btn-u-orange ls-s-1" asp-page="/Services" style=" padding: 9px 20px; font-size:25px; top:390px; left: 590px; slidedirection : bottom; slideoutdirection : top; durationin : 3500; durationout : 2500; delayin : 1000; ">
+                    Explore our services
+                </a>
+            </div>
+
+            <!-- End Second Slide -->
+            <!-- Third Slide -->
+            @* <div class="ls-slide" data-ls="transition2d:93;">
+                <img src="assets/img/bg/img8.jpg" class="ls-bg" alt="Slide background">
+
+                <i class="fa fa-chevron-circle-right ls-s-1" style=" color: #fff; font-size: 24px; top:70px; left: 40px; slidedirection : left; slideoutdirection : top; durationin : 1500; durationout : 500; "></i>
+
+                <span class="ls-s-2" style=" color: #fff; font-weight: 200; font-size: 22px; top:70px; left: 70px; slidedirection : top; slideoutdirection : bottom; durationin : 1500; durationout : 500; ">
+                Fully Responsive and Easy to Customize
+                </span>
+
+                <i class="fa fa-chevron-circle-right ls-s-1" style=" color: #fff; font-size: 24px; top:120px; left: 40px; slidedirection : left; slideoutdirection : top; durationin : 2500; durationout : 1500; "></i>
+
+                <span class="ls-s-2" style=" color: #fff; font-weight: 200; font-size: 22px; top:120px; left: 70px; slidedirection : top; slideoutdirection : bottom; durationin : 2500; durationout : 1500; ">
+                Revolution and Layer Slider Included
+                </span>
+
+                <i class="fa fa-chevron-circle-right ls-s-1" style=" color: #fff; font-size: 24px; top:170px; left: 40px; slidedirection : left; slideoutdirection : top; durationin : 3500; durationout : 3500; "></i>
+
+                <span class="ls-s-2" style=" color: #fff; font-weight: 200; font-size: 22px; top:170px; left: 70px; slidedirection : top; slideoutdirection : bottom; durationin : 3500; durationout : 2500; ">
+                1000+ Glyphicons Pro and Font Awesome Icons
+                </span>
+
+                <i class="fa fa-chevron-circle-right ls-s-1" style=" color: #fff; font-size: 24px; top:220px; left: 40px; slidedirection : left; slideoutdirection : top; durationin : 4500; durationout : 3500; "></i>
+
+                <span class="ls-s-2" style=" color: #fff; font-weight: 200; font-size: 22px; top:220px; left: 70px; slidedirection : top; slideoutdirection : bottom; durationin : 4500; durationout : 3500; ">
+                Revolution and Layer Slider Included
+                </span>
+
+                <i class="fa fa-chevron-circle-right ls-s-1" style=" color: #fff; font-size: 24px; top:270px; left: 40px; slidedirection : left; slideoutdirection : top; durationin : 5500; durationout : 4500; "></i>
+
+                <span class="ls-s-2" style=" color: #fff; font-weight: 200; font-size: 22px; top:270px; left: 70px; slidedirection : top; slideoutdirection : bottom; durationin : 5500; durationout : 4500; ">
+                60+ Template Pages and 20+ Plugins Included
+                </span>
+
+                <a class="btn-u btn-u-blue ls-s1" href="#" style=" padding: 9px 20px; font-size:25px; top:340px; left: 40px; slidedirection : bottom; slideoutdirection : bottom; durationin : 6500; durationout : 3500; ">
+                Twitter Bootstrap 3
+                </a>
+
+                <img src="assets/img/mockup/iphone1.png" alt="Slider Image" class="ls-s-1" style=" top:30px; left: 650px; slidedirection : right; slideoutdirection : bottom; durationin : 1500; durationout : 1500; ">
+                </div>*@
+            <!-- Third Slide -->
+        </div><!--/layer_slider-->
+        <!--=== End Slider ===-->
+
 <!--=== Call to Action ===-->
 <div class="call-action-v1 bg-color-light">
     <div class="container">
@@ -22,12 +107,12 @@
 <div class="container content-sm">
         <div class="headline-center margin-bottom-60">
             <h2>Services Offered</h2>
-            <p>Avail world class  <a href="#">cosmetology and aesthetics services</a> at affordable rates. Satisfaction guaranteed!</p>
+            <p>Avail world class  <a asp-page="/Services">cosmetology and aesthetics services</a> at affordable rates. Satisfaction guaranteed!</p>
             <p>Ask your cosmetologist which procedure is best for you!</p>
         </div><!--/end Headline Center-->
         <!-- Portfolio Box -->
         <ul class="list-unstyled row portfolio-box">
-            <li class="col-sm-4 md-margin-bottom-50">
+            <li class="col-sm-4 ">
                 <a href="assets/img/main/img9.jpg" title="Skin tightening & Whitening" data-rel="gallery" class="thumbnail fancybox">
                     <img alt="" src="assets/img/main/img9.jpg" class="full-width img-responsive">
                     <span class="portfolio-box-in rounded-x">
@@ -36,9 +121,10 @@
                 </a>
                 <div class="headline-left margin-bottom-10"><h3 class="headline-brd">Skin Tightening & Whitening</h3></div>
                 <small class="project-tag"><i class="fa fa-tag"></i><a href="#">Skin Treatment</a>, <a href="#">Skin Rejuvenation</a></small>
-                <p>Our Skin Tightening and Whitening procedures are non-invasive and leave your skin intact. You will get a rejuvenated, tight and bright skin. </p>
+                <p>Our Skin Tightening and Whitening procedures are non-invasive and leave your skin intact. You will get a rejuvenated, tight and bright skin after this procedure. </p>
             </li>
-            <li class="col-sm-4 md-margin-bottom-50">
+
+            <li class="col-sm-4">
                 <a href="assets/img/main/carbonfacial.jpg" title="Carbon and Medi Facials" data-rel="gallery" class="thumbnail fancybox">
                     <img alt="" src="assets/img/main/carbonfacial.jpg" class="full-width img-responsive">
                     <span class="portfolio-box-in rounded-x">
@@ -47,10 +133,10 @@
                 </a>
                 <div class="headline-left margin-bottom-10"><h3 class="headline-brd">Carbon and Medi Facials</h3></div>
                 <small class="project-tag"><i class="fa fa-tag"></i><a href="#">Technology</a>, <a href="#">Business</a></small>
-                                <p>Our Skin Tightening and Whitening procedures are non-invasive and leave your skin intact. You will get a rejuvenated, tight and bright skin. </p>
+                                <p>Carbon & other medical facials are beauty procedures that helps rejuvenate the appearance of aging and damaged skin. It gently leaves a vibrant glow and youthful complexion. </p>
 
             </li>
-            <li class="col-sm-4 md-margin-bottom-50">
+            <li class="col-sm-4">
                 <a href="assets/img/main/botox.jpg" title="Botox/Fillers" data-rel="gallery" class="thumbnail fancybox">
                     <img alt="" src="assets/img/main/botox.jpg" class="full-width img-responsive">
                     <span class="portfolio-box-in rounded-x">
@@ -59,11 +145,11 @@
                 </a>
                 <div class="headline-left margin-bottom-10"><h3 class="headline-brd">Botox/Fillers</h3></div>
                 <small class="project-tag"><i class="fa fa-tag"></i><a href="#">Technology</a>, <a href="#">Business</a></small>
-                                              <p>Our Skin Tightening and Whitening procedures are non-invasive and leave your skin intact. You will get a rejuvenated, tight and bright skin. </p>
+                                              <p>Botox injection helps minimize the appearance of lines and wrinkles. Dermal fillers contain ingredients that add fullness to areas that have thinned due to aging.  </p>
 
             </li>
 
-             <li class="col-sm-4 md-margin-bottom-50">
+             <li class="col-sm-4">
                 <a href="assets/img/main/hydrafacial.jpg" title="Hydra Facial" data-rel="gallery" class="thumbnail fancybox">
                     <img alt="" src="assets/img/main/hydrafacial.jpg" class="full-width img-responsive">
                     <span class="portfolio-box-in rounded-x">
@@ -72,10 +158,10 @@
                 </a>
                 <div class="headline-left margin-bottom-10"><h3 class="headline-brd">Hydra Facial</h3></div>
                 <small class="project-tag"><i class="fa fa-tag"></i><a href="#">Technology</a>, <a href="#">Business</a></small>
-                               <p>Our Skin Tightening and Whitening procedures are non-invasive and leave your skin intact. You will get a rejuvenated, tight and bright skin. </p>
+                               <p>Aestheticians cleanse, exfoliate, extract, & deliver a variety of rejuvenating serums to your face during hydra facial sessions and bring an instant “wow factor” to brighten your skin.</p>
 
             </li>
-            <li class="col-sm-4 md-margin-bottom-50">
+            <li class="col-sm-4">
                 <a href="assets/img/main/acnescarremoval2.jpg" title="Acne Scar removal" data-rel="gallery" class="thumbnail fancybox">
                     <img alt="" src="assets/img/main/acnescarremoval2.jpg" class="full-width img-responsive">
                     <span class="portfolio-box-in rounded-x">
@@ -84,10 +170,10 @@
                 </a>
                 <div class="headline-left margin-bottom-10"><h3 class="headline-brd">Acne Scar removal</h3></div>
                 <small class="project-tag"><i class="fa fa-tag"></i><a href="#">Technology</a>, <a href="#">Business</a></small>
-                                               <p>Our Skin Tightening and Whitening procedures are non-invasive and leave your skin intact. You will get a rejuvenated, tight and bright skin. </p>
+                                               <p>We use multiple advanced scientific techniques to remove acne and its scar. Its now possible to get rid of those pesky pimple, acne & associated pigmentations.</p>
 
             </li>
-            <li class="col-sm-4 md-margin-bottom-50">
+            <li class="col-sm-4">
                 <a href="assets/img/main/hairtransplant.jpg" title="Hair Transplant" data-rel="gallery" class="thumbnail fancybox">
                     <img alt="" src="assets/img/main/hairtransplant.jpg" class="full-width img-responsive">
                     <span class="portfolio-box-in rounded-x">
@@ -96,12 +182,15 @@
                 </a>
                 <div class="headline-left margin-bottom-10"><h3 class="headline-brd">Hair Transplant</h3></div>
                 <small class="project-tag"><i class="fa fa-tag"></i><a href="#">Technology</a>, <a href="#">Business</a></small>
-                                               <p>Our Skin Tightening and Whitening procedures are non-invasive and leave your skin intact. You will get a rejuvenated, tight and bright skin. </p>
+                <p>We move hair to a bald area of your head from the back or side of the head to help permanently regain hair on your head and make you look good and confident. </p>
 
             </li>
 
 
         </ul>
+        <center>
+            <a class="btn btn-info" asp-page="~/Services" >View All Our Services >></a>
+        </center>
         <!-- End Portfolio Box -->
     </div>
 <!--=== Content Part ===-->

@@ -67,7 +67,7 @@
                         </div>
                         <!-- ENd Navbar Brand -->
                         <!-- Header Inner Right -->
-                        <div class="header-inner-right">
+                        @*<div class="header-inner-right">
                             <ul class="menu-icons-list">
                                 <li class="menu-icons shopping-cart">
                                     <i class="menu-icons-style radius-x fa fa-shopping-cart"></i>
@@ -85,7 +85,7 @@
                                     </div>
                                 </li>
                             </ul>
-                        </div>
+                        </div>*@
                         <!-- End Header Inner Right -->
                     </div>
 
@@ -95,25 +95,25 @@
                             <ul class="nav navbar-nav">
                                 <!-- Home -->
                                 <li class="active">
-                                    <a class="" asp-page="~/">
+                                    <a class="" asp-page="/Index">
                                         Home
                                     </a>
                                 </li>
 
                                 <li class="">
-                                    <a asp-page="~/Services">
+                                    <a asp-page="/Services">
                                         Our Services
                                     </a>
                                 </li>
 
                                 <li class="">
-                                    <a asp-page="~/About">
+                                    <a asp-page="/About">
                                         About us
                                     </a>
                                 </li>
 
                                 <li class="">
-                                    <a asp-page="~/Testimonials">
+                                    <a asp-page="/Testimonials">
                                         Patient Testimonials
                                     </a>
                                 </li>
@@ -125,17 +125,17 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a asp-page="~/Contact"> Contact Details</a>
+                                            <a asp-page="/Contact"> Contact Details</a>
                                         </li>
                                          <li>
-                                            <a asp-page="~/Map"> View us on Map</a>
+                                            <a asp-page="/Map"> Locate us on Map</a>
                                         </li>
                                          <li>
-                                            <a asp-page="~/Callback"> Request a callback </a>
+                                            <a asp-page="/Callback"> Request a callback </a>
                                         </li>
 
                                         <li>
-                                            <a asp-page="~/WhatsApp"> Send message on WhatsApp </a>
+                                            <a asp-page="/WhatsApp"> Send message on WhatsApp </a>
                                         </li>
 
                                         
@@ -247,85 +247,7 @@
             <!-- End Navbar -->
         </div>
         <!--=== End Header v6 ===-->
-        <!--=== Slider ===-->
-        <div id="layerslider" style="width: 100%; height: 500px;">
-            <!-- First slide -->
-            <div class="ls-slide" style="slidedirection: right; transition2d: 92,93,105; ">
-                <img src="assets/img/sliders/slider3.jpg" class="ls-bg" alt="Slide background">
-
-                <span class="ls-s-1 " style="background: #f9e8e8;opacity:0.8;   padding:10px 20px; border-radius: 11px;box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px; color: black; line-height:45px; font-weight: 200; font-size: 35px; top:370px; left: 50px; slidedirection : top; slideoutdirection : bottom; durationin : 1000; durationout : 1000; ">
-                    World-class cosmetology services  <br> now in Gurgaon
-                </span>
-
-                @*<a class="btn-u btn-u-green ls-s-1" href="#" style=" padding: 9px 20px; font-size:25px; top:437px; left: 50px; slidedirection : bottom; slideoutdirection : bottom; durationin : 2000; durationout : 2000; ">
-                    Find Out More
-                    </a>*@
-
-                <img src="assets/img/mockup/iphone.png" alt="Slider Image" class="ls-s-1" style=" top:30px; left: 670px; slidedirection : right; slideoutdirection : bottom; durationin : 3000; durationout : 3000; ">
-            </div>
-            <!-- End First slide -->
-            <!-- Second Slide -->
-            <div class="ls-slide" data-ls="slidedelay:6500; transition2d:25;">
-                <img src="assets/img/sliders/slider2.jpg" class="ls-bg" alt="Slide background" />
-
-                @* <img class="ls-l" src="assets/img/mockup/iphone1.png" style="top: 85%; left: 44%;"
-                    data-ls="offsetxin:left; durationin:1500; delayin:900; fadein:false; offsetxout:left; durationout:1000; fadeout:false;" />*@
-
-                <span class="ls-s-1" style=" line-height: 45px; font-size:30px; color:#fff; top:300px; left: 590px; slidedirection : top; slideoutdirection : bottom; durationin : 1500; durationout : 3500; delayin : 1000;">
-                    One stop destination for all your <br> beauty treatment needs
-                </span>
-
-                <img src="assets/img/mockup/iphone.png" alt="Slider image" class="ls-s-1" style=" top:30px; left: 29%;" data-ls="offsetxin:left; durationin:3500; delayin:3500; fadein:false; offsetxout:left; durationout:4500; fadeout:false;">
-
-                <a class="btn-u btn-u-orange ls-s-1" asp-page="~/Services" style=" padding: 9px 20px; font-size:25px; top:390px; left: 590px; slidedirection : bottom; slideoutdirection : top; durationin : 3500; durationout : 2500; delayin : 1000; ">
-                    Explore our services
-                </a>
-            </div>
-
-            <!-- End Second Slide -->
-            <!-- Third Slide -->
-            @* <div class="ls-slide" data-ls="transition2d:93;">
-                <img src="assets/img/bg/img8.jpg" class="ls-bg" alt="Slide background">
-
-                <i class="fa fa-chevron-circle-right ls-s-1" style=" color: #fff; font-size: 24px; top:70px; left: 40px; slidedirection : left; slideoutdirection : top; durationin : 1500; durationout : 500; "></i>
-
-                <span class="ls-s-2" style=" color: #fff; font-weight: 200; font-size: 22px; top:70px; left: 70px; slidedirection : top; slideoutdirection : bottom; durationin : 1500; durationout : 500; ">
-                Fully Responsive and Easy to Customize
-                </span>
-
-                <i class="fa fa-chevron-circle-right ls-s-1" style=" color: #fff; font-size: 24px; top:120px; left: 40px; slidedirection : left; slideoutdirection : top; durationin : 2500; durationout : 1500; "></i>
-
-                <span class="ls-s-2" style=" color: #fff; font-weight: 200; font-size: 22px; top:120px; left: 70px; slidedirection : top; slideoutdirection : bottom; durationin : 2500; durationout : 1500; ">
-                Revolution and Layer Slider Included
-                </span>
-
-                <i class="fa fa-chevron-circle-right ls-s-1" style=" color: #fff; font-size: 24px; top:170px; left: 40px; slidedirection : left; slideoutdirection : top; durationin : 3500; durationout : 3500; "></i>
-
-                <span class="ls-s-2" style=" color: #fff; font-weight: 200; font-size: 22px; top:170px; left: 70px; slidedirection : top; slideoutdirection : bottom; durationin : 3500; durationout : 2500; ">
-                1000+ Glyphicons Pro and Font Awesome Icons
-                </span>
-
-                <i class="fa fa-chevron-circle-right ls-s-1" style=" color: #fff; font-size: 24px; top:220px; left: 40px; slidedirection : left; slideoutdirection : top; durationin : 4500; durationout : 3500; "></i>
-
-                <span class="ls-s-2" style=" color: #fff; font-weight: 200; font-size: 22px; top:220px; left: 70px; slidedirection : top; slideoutdirection : bottom; durationin : 4500; durationout : 3500; ">
-                Revolution and Layer Slider Included
-                </span>
-
-                <i class="fa fa-chevron-circle-right ls-s-1" style=" color: #fff; font-size: 24px; top:270px; left: 40px; slidedirection : left; slideoutdirection : top; durationin : 5500; durationout : 4500; "></i>
-
-                <span class="ls-s-2" style=" color: #fff; font-weight: 200; font-size: 22px; top:270px; left: 70px; slidedirection : top; slideoutdirection : bottom; durationin : 5500; durationout : 4500; ">
-                60+ Template Pages and 20+ Plugins Included
-                </span>
-
-                <a class="btn-u btn-u-blue ls-s1" href="#" style=" padding: 9px 20px; font-size:25px; top:340px; left: 40px; slidedirection : bottom; slideoutdirection : bottom; durationin : 6500; durationout : 3500; ">
-                Twitter Bootstrap 3
-                </a>
-
-                <img src="assets/img/mockup/iphone1.png" alt="Slider Image" class="ls-s-1" style=" top:30px; left: 650px; slidedirection : right; slideoutdirection : bottom; durationin : 1500; durationout : 1500; ">
-                </div>*@
-            <!-- Third Slide -->
-        </div><!--/layer_slider-->
-        <!--=== End Slider ===-->
+       
 
         <main role="main" class="pb-3">
             @RenderBody()
