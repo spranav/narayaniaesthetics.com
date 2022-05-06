@@ -100,8 +100,8 @@
 
 /*Navbar Brand*/
 .header-v6 .navbar-brand {
-	height: 93px;
-	max-height: 93px;
+	height: 136px;
+	/*max-height: 93px;*/
 	line-height: 65px;
 }
 
@@ -125,7 +125,7 @@
 /*Media Queries*/
 @media (max-width: 991px) {
 	.header-v6 .navbar-brand {
-		padding-top: 20px;
+		padding-top: 10px;
 	}
 
 		.header-v6 .navbar-brand img.shrink-logo {
