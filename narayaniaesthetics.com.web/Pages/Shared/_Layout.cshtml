@@ -63,9 +63,8 @@
 
                         <!-- Navbar Brand -->
                         <div class="navbar-brand">
-                            <a href="index.html">
-                                <img class="shrink-logo" src="~/assets/img/logo/narayaniaesthetics-logo-bgwhite – 1.svg" alt="Narayani Aesthetics">
-
+                            <a asp-page="Index">
+                                <img class="shrink-logo" src="~/assets/img/logo/narayaniaesthetics-logo-bgwhite–1.svg" alt="Narayani Aesthetics">
                             </a>
                         </div>
                         <!-- ENd Navbar Brand -->
@@ -255,9 +254,8 @@
                     <div class="row">
                         <!-- About -->
                         <div class="col-md-3 md-margin-bottom-40">
-                            <a href="index.html"><img id="logo-footer" class="footer-logo" src="assets/img/logo2-default.png" alt=""></a>
-                            <p>About Unify dolor sit amet, consectetur adipiscing elit. Maecenas eget nisl id libero tincidunt sodales.</p>
-                            <p>Duis eleifend fermentum ante ut aliquam. Cras mi risus, dignissim sed adipiscing ut, placerat non arcu.</p>
+                            <a asp-page="Contact"><img id="logo-footer" class="footer-logo" src="/assets/img/logo/narayaniaesthetics-logo-bgblack.svg" alt=""></a>
+                           <p> Narayani’s Aesthetics is the leading aesthetics and cosmetology centre in Gurgaon that provides world-class services with the help of ultra-modern technologies. The facility is run by award-winning aesthetic cosmetologist Dr. Preeti Yadav.</p> 
                         </div><!--/col-md-3-->
                         <!-- End About -->
                         <!-- Latest -->
@@ -285,11 +283,11 @@
                         <div class="col-md-3 md-margin-bottom-40">
                             <div class="headline"><h2>Useful Links</h2></div>
                             <ul class="list-unstyled link-list">
-                                <li><a href="#">About us</a><i class="fa fa-angle-right"></i></li>
-                                <li><a href="#">Portfolio</a><i class="fa fa-angle-right"></i></li>
-                                <li><a href="#">Latest jobs</a><i class="fa fa-angle-right"></i></li>
-                                <li><a href="#">Community</a><i class="fa fa-angle-right"></i></li>
-                                <li><a href="#">Contact us</a><i class="fa fa-angle-right"></i></li>
+                                <li><a asp-page="About">About us</a><i class="fa fa-angle-right"></i></li>
+                                <li><a asp-page="Services">Our Services</a><i class="fa fa-angle-right"></i></li>
+                                <li><a asp-page="Testimonials">Testimonials</a><i class="fa fa-angle-right"></i></li>
+                                <li><a asp-page="Community">Community</a><i class="fa fa-angle-right"></i></li>
+                                <li><a asp-page="Contact">Contact us</a><i class="fa fa-angle-right"></i></li>
                             </ul>
                         </div><!--/col-md-3-->
                         <!-- End Link List -->
@@ -297,11 +295,12 @@
                         <div class="col-md-3 map-img md-margin-bottom-40">
                             <div class="headline"><h2>Contact Us</h2></div>
                             <address class="md-margin-bottom-40">
-                                25, Lorem Lis Street, Orange <br />
-                                California, US <br />
-                                Phone: 800 123 3456 <br />
-                                Fax: 800 123 3456 <br />
-                                Email: <a href="mailto:info@anybiz.com" class="">info@anybiz.com</a>
+                                House Number- 706, Saraswati Vihar, DLF Phase-1 <br />
+                                Behind Sahara Mall, Gurugram, 122002 <br />
+                                <a target="_blank" href="https://goo.gl/maps/JWFD69AzfNPWoV5u6">F3GM+QR : Locate us on Google Map</a>
+                                Phone: 0124 5060 050  <br />
+                                Mobile: 989.9803.838 <br />
+                                Email: <a href="mailto:contact@narayaniaesthetics.com" class="">contact@narayaniaesthetics.com</a>
                             </address>
                         </div><!--/col-md-3-->
                         <!-- End Address -->
@@ -315,7 +314,7 @@
                         <div class="col-md-6">
                             <p>
                                 2015 &copy; All Rights Reserved.
-                                <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+                                <a asp-page="Privacy">Privacy Policy</a> | <a asp-page="Terms">Terms of Service</a>
                             </p>
                         </div>
 
