@@ -2,3 +2,112 @@
 @model narayaniaesthetics.com.web.Pages.ServicesModel
 @{
 }
+
+
+<div class="container content-sm">
+    <div class="headline-center margin-bottom-60">
+        <h1>Our Services </h1>
+        <p>Avail world class  <a asp-page="/Services">cosmetology and aesthetics services</a> at affordable rates. Satisfaction guaranteed!</p>
+        <p><a asp-page="Contact">Ask your cosmetologist </a> which procedure is best for you!</p>
+    </div><!--/end Headline Center-->
+    <!-- Portfolio Box -->
+    <ul class="list-unstyled row portfolio-box">
+        @*Medical Facials*@
+        <li class="col-sm-4 ">
+            <a asp-page="MedicalFacials/Index" title="Medical Facials" data-rel="gallery" class="thumbnail fancybox">
+                <img alt="Medical Facials" src="assets/img/main/1-MedicalFacials.jpg" class="full-width img-responsive">
+                <span class="portfolio-box-in rounded-x">
+                    <i class="icon-magnifier-add"></i>
+                </span>
+            </a>
+            <div class="headline-left margin-bottom-10"><h3 class="headline-brd">Medical Facials</h3></div>
+            <small class="project-tag"><i class="fa fa-tag"></i><a href="#">Hydra facial</a>, <a href="#">Oxygen facial</a>, <a href="#">Ice lift</a>, <a href="#">Mesoglow</a>, <a href="#">Bio-collagen</a></small>
+            <p>Our Medical Facials and Whitening procedures will give you a rejuvenated, vibrant glow and youthful complexion. We offer services like Hydra facial, Oxygen facial, Ice lift, Mesoglow, Bio-collagen, Carbon facial. Explore all of our Medical Facial related services. </p>
+        </li>
+        @*Anti-aging Procedures*@
+        <li class="col-sm-4">
+            <a asp-page="AntiAgingProcedures/Index" title="Anti-aging Procedures" data-rel="gallery" class="thumbnail fancybox">
+                <img alt="Anti-aging Procedures" src="assets/img/main/2-Anti-agingProcedures.jpg" class="full-width img-responsive">
+                <span class="portfolio-box-in rounded-x">
+                    <i class="icon-magnifier-add"></i>
+                </span>
+            </a>
+            <div class="headline-left margin-bottom-10"><h3 class="headline-brd">Anti-aging Procedures</h3></div>
+            <small class="project-tag"><i class="fa fa-tag"></i><a href="#">Botox & fillers</a>, <a href="#">RF Skin Lift</a>, <a href="#">Mesotherapy</a>, <a href="#">Thread lifts</a></small>
+            <p>Our specialized anti-aging procedures help rejuvenate the appearance of aging and damaged skin. It gently leaves a tight and bright skin. You can get rid of fine lines & wrinkles. Explore our services like Botox & fillers, RF Skin Lift, Mesotherapy, Thread lifts & many more. </p>
+
+        </li>
+
+        @*Derma Peel*@
+        <li class="col-sm-4">
+            <a asp-page="DermaPeel/Index" title="Derma Peel" data-rel="gallery" class="thumbnail fancybox">
+                <img alt="" src="assets/img/main/3-DermaPeel.jpg" class="full-width img-responsive">
+                <span class="portfolio-box-in rounded-x">
+                    <i class="icon-magnifier-add"></i>
+                </span>
+            </a>
+            <div class="headline-left margin-bottom-10"><h3 class="headline-brd">Derma Peel</h3></div>
+            <small class="project-tag"><i class="fa fa-tag"></i><a href="#">InstaGlow</a>, <a href="#">Radiance</a>, <a href="#">Pigment Reverse</a>, <a href="#">Anti-acne</a></small>
+            <p>Are you worried for Sun Spots, Acne scars, Dull or aging complexion? The appropriate Derma Peel like InstaGlow, Radiance, Pigment Reverse, or Anti-acne delivers real results for all skin types. Our medical grade peels offer long-lasting results and give the skin a beautiful glow.</p>
+
+        </li>
+
+        @*Skin Rejuvenation*@
+        <li class="col-sm-4">
+            <a asp-page="SkinRejuvenation/Index" title="Skin Rejuvenation" data-rel="gallery" class="thumbnail fancybox">
+                <img alt="" src="assets/img/main/4-SkinRejuvenation.jpg" class="full-width img-responsive">
+                <span class="portfolio-box-in rounded-x">
+                    <i class="icon-magnifier-add"></i>
+                </span>
+            </a>
+            <div class="headline-left margin-bottom-10"><h3 class="headline-brd">Skin Rejuvenation</h3></div>
+            <small class="project-tag"><i class="fa fa-tag"></i><a href="#">Micro-needling</a>, <a href="#">Microdermabrasion</a>, <a href="#">Carbon laser toning</a></small>
+            <p>Due collagen deposit skin loses structure, have less fat, and begin to appear wrinkled. Avail our skin rejuvenation procedures like Micro-needling, Microdermabrasion, No-needle Mesotherapy, Carbon laser toning and many more to revive your skin and become young again. </p>
+
+        </li>
+
+        @*Hair Restoration*@
+        <li class="col-sm-4">
+            <a asp-page="HairRestoration/Index" title="Hair Restoration" data-rel="gallery" class="thumbnail fancybox">
+                <img alt="" src="assets/img/main/5-HairRestoration.jpg" class="full-width img-responsive">
+                <span class="portfolio-box-in rounded-x">
+                    <i class="icon-magnifier-add"></i>
+                </span>
+            </a>
+            <div class="headline-left margin-bottom-10"><h3 class="headline-brd">Hair Restoration</h3></div>
+            <small class="project-tag"><i class="fa fa-tag"></i><a href="#">Anti-hair loss therapy</a>, <a href="#">PRP Therapy</a>, <a href="#">Hair Transplantation</a></small>
+            <p>Worried for your hair loss? Our hair restoration programs like Anti-hair loss therapy, Stem Cell Therapy, PRP Therapy, Hair Transplantation, Follicular Unit Extraction will give style and confidence back to you. Hair restoration can give you permanent, natural-looking results.</p>
+
+        </li>
+
+        @*Permanent Makeup*@
+        <li class="col-sm-4">
+            <a asp-page="PermanentMakeup/Index" title="Permanent Makeup" data-rel="gallery" class="thumbnail fancybox">
+                <img alt="" src="assets/img/main/6-PermanentMakeup.jpg" class="full-width img-responsive">
+                <span class="portfolio-box-in rounded-x">
+                    <i class="icon-magnifier-add"></i>
+                </span>
+            </a>
+            <div class="headline-left margin-bottom-10"><h3 class="headline-brd">Permanent Makeup</h3></div>
+            <small class="project-tag"><i class="fa fa-tag"></i><a href="#">Korean BB Glow</a>, <a href="#">Perm Lip blush</a>, <a href="#">Perm Brows</a></small>
+            <p>Permanent makeup is achieved by applying natural pigments into the dermal layer of skin. This procedure is medically recognized and is considered 100% safe. Our procedures include Korean BB Glow, Perm Lip blush, Perm Brows and many more that will give you beautiful complexion.</p>
+
+        </li>
+
+    </ul>
+    <center>
+        <a class="btn btn-info" asp-page="/Services">View All Our Services >></a>
+    </center>
+    <!-- End Portfolio Box -->
+</div>
+
+<div class="parallax-quote parallaxBg" style="background-position: 50% -304px;">
+							<div class="container">
+								<div class="parallax-quote-in">
+
+                                  <p> Your <span class="color-green">skin has a memory</span>. In, few years from now, your skin will show the results of how you treated your skin today.<br /> So, <span class="color-green">treat it kindly and gently</span>. Investing in your skin today will give you a <span class="color-green">long-lasting healthy skin and confidence</span>.    </p> 
+
+									<small>- Dr. preeti Yadav -</small>
+								</div>
+							</div>
+						</div>
