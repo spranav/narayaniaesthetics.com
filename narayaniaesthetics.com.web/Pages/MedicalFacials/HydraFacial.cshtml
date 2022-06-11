@@ -1,4 +1,5 @@
-﻿@page
+﻿
+@page
 @model narayaniaesthetics.com.web.Pages.MedicalFacials.HydraFacialModel
 @{
 }
@@ -42,9 +43,13 @@
                 Hydra facial helps you deep cleanse dirt and remove debris of dead cells. It clears off the skin-pores completely. Specialized intense moisturizing serums are applied into the skin to revive your skin and its overall health.
             </p>
 
-            <p>
-                Hydra facial procedure is not painful and many of the benefits of micro-needling can be achieved by Hydra Facial. Hydra Facials can be performed on most of the skin types, including very sensitive skins.
-            </p>
+            <div class="tag-box tag-box-v2 box-shadow shadow-effect-1">
+                <p>
+                    Hydra facial procedure is not painful and many of the benefits of micro-needling can be achieved by Hydra Facial. Hydra Facials can be performed on most of the skin types, including very sensitive skins.
+                </p>
+            </div>
+
+
 
             <p>
                 HydraFacial treatments use hydro microdermabrasion technique to hydrate and rejuvenate your skin gently. It reduces the appearance of fine lines and large pores in your skin.
@@ -97,7 +102,11 @@
         <h2>Testimonials of patients for Hydra Facial</h2>
         <p>Here are some of the experiences shared by our patients who went through the Hydra Facial treatment:</p>
         <div class="row">
+
+
             <div class="col-sm-6">
+               
+
                 <div class="testimonials-v4 md-margin-bottom-50">
                     <div class="testimonials-v4-in">
                         <p>
@@ -132,6 +141,8 @@
 
 
         </div>
+
+        @(await Html.RenderComponentAsync<narayaniaesthetics.com.web.Pages.Shared.DiscountComponent>( RenderMode.ServerPrerendered ))
 
         <br />
         <br />

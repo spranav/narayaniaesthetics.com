@@ -2018,10 +2018,10 @@
   margin-bottom: 5px;
 }
 
-.portfolio-box small.project-tag,
-.portfolio-box small.project-tag a {
-  color: #999;
-}
+	.portfolio-box small.project-tag,
+	.portfolio-box small.project-tag a {
+		color: #72c02c;
+	}
 
 .portfolio-box small.project-tag i {
   margin-right: 5px;
