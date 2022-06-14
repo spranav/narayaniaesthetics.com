@@ -6,4 +6,21 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\assets\ajax\cube-portfolio\assets\img\portfolio\" />
+    <Folder Include="wwwroot\assets\ajax\cube-portfolio\assets\img\team\" />
+    <Folder Include="wwwroot\assets\ajax\cube-portfolio\rtl\" />
+    <Folder Include="wwwroot\assets\css\img\patterns\" />
+    <Folder Include="wwwroot\assets\css\themes\" />
+    <Folder Include="wwwroot\assets\plugins\assets\" />
+    <Folder Include="wwwroot\assets\plugins\bxslider\" />
+    <Folder Include="wwwroot\assets\plugins\flexslider\" />
+    <Folder Include="wwwroot\assets\plugins\glyphicons-pro\glyphicons\web\html_css\css\" />
+    <Folder Include="wwwroot\assets\plugins\glyphicons-pro\glyphicons_filetypes\web\html_css\css\" />
+    <Folder Include="wwwroot\assets\plugins\glyphicons-pro\glyphicons_halflings\web\html_css\css\" />
+    <Folder Include="wwwroot\assets\plugins\glyphicons-pro\glyphicons_social\web\html_css\css\" />
+    <Folder Include="wwwroot\assets\plugins\sky-forms-pro\skyforms\captcha\" />
+    <Folder Include="wwwroot\assets\plugins\youtube-player\css\" />
+  </ItemGroup>
+
 </Project>
