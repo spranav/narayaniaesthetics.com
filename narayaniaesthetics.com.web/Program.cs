@@ -1,7 +1,12 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using narayaniaesthetics.com.web.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddDbContext<narayaniaestheticscomwebContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("narayaniaestheticscomwebContext") ?? throw new InvalidOperationException("Connection string 'narayaniaestheticscomwebContext' not found.")));
 
 var app = builder.Build();
 

@@ -49,6 +49,16 @@
         }
     </style>
 
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RZD7MW3KWC"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-RZD7MW3KWC');
+    </script>
+
 </head>
 
 <body class="header-fixed header-fixed-space">
@@ -159,49 +169,6 @@
 
 
             </div>
-            @*   <div class="row">
-                <div class="col-md-3 ">
-
-                </div>
-                <div class="col-md-6 ">
-                <div class="row news-v2 margin-bottom-50">
-                <div class="col-sm-6 sm-margin-bottom-30">
-                <div class="news-v2-badge">
-                <img class="img-responsive" src="assets/img/main/img18.jpg" alt="">
-                <p>
-                <span>23</span>
-                <small>Jan</small>
-                </p>
-                </div>
-                <div class="news-v2-desc">
-                <h3><a href="#">Reading Some Books</a></h3>
-                <small>By Admin | California, US | In <a href="#">Art</a></small>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae, gravida pellentesque urna varius vitae.</p>
-                </div>
-                </div>
-                <div class="col-sm-6">
-                <div class="news-v2-badge">
-                <img class="img-responsive" src="assets/img/main/img16.jpg" alt="">
-                <p>
-                <span>22</span>
-                <small>Jan</small>
-                </p>
-                </div>
-                <div class="news-v2-desc">
-                <h3><a href="#">Interior Design</a></h3>
-                <small>By Admin | California, US | In <a href="#">Art</a></small>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae, gravida pellentesque urna varius vitae.</p>
-                </div>
-                </div>
-                </div>
-
-                </div>
-                <div class="col-md-3 ">
-
-                </div>
-
-                </div>*@
-
 
         </main>
 
@@ -257,7 +224,7 @@
                             <address class="md-margin-bottom-40">
                                 706, Saraswati Vihar, DLF Phase-1, <br />
                                 Behind Sahara Mall, Gurugram, 122002 <br />
-                                <a target="_blank" href="https://goo.gl/maps/MffJUxNTq7YDfG9K6">F3GM+QR : Locate us on Google Map</a>  <br />   
+                                <a target="_blank" href="https://goo.gl/maps/MffJUxNTq7YDfG9K6">F3GM+QR : Locate us on Google Map</a>  <br />
                                 Mobile:
                                 <a href="tel:+919899803838">989.9803.838</a> | <a target="_blank" href="https://wa.me/+919899803838">WhatsApp us</a> <br />
                                 Phone: 0124 5060 050  <br />
@@ -293,7 +260,7 @@
                                         <i class="fa fa-skype"></i>
                                     </a>
                                 </li>
-                                
+
                                 <li>
                                     <a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Linkedin">
                                         <i class="fa fa-linkedin"></i>
@@ -309,7 +276,7 @@
                                         <i class="fa fa-twitter"></i>
                                     </a>
                                 </li>
-                                
+
                             </ul>
                         </div>
                         <!-- End Social Links -->
@@ -319,7 +286,6 @@
         </div>
         <!--=== End Footer Version 1 ===-->
     </div><!--/wrapper-->
-  
     <!--=== End Style Switcher ===-->
     <!-- JS Global Compulsory -->
     <script type="text/javascript" src="~/assets/plugins/jquery/jquery.min.js"></script>
@@ -354,6 +320,7 @@
         <script src="~/assets/plugins/html5shiv.js"></script>
         <script src="~/assets/plugins/placeholder-IE-fixes.js"></script>
         <![endif]-->
+    @await RenderSectionAsync("Scripts", required: false)
 
 </body>
 

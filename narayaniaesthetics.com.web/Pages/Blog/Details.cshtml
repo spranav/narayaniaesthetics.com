@@ -1,0 +1,56 @@
+﻿@page
+@model narayaniaesthetics.com.web.Pages.Blog.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>BlogPost</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.BlogPost.Title)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BlogPost.Title)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BlogPost.Summary)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BlogPost.Summary)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BlogPost.Keywords)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BlogPost.Keywords)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BlogPost.BodyContent)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BlogPost.BodyContent)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BlogPost.AuthorName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BlogPost.AuthorName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BlogPost.PublishedDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BlogPost.PublishedDate)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.BlogPost.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>
